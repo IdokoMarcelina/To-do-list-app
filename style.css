@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+    padding: 20px;
+    background-color: rgb(226, 159, 226);
+    color: purple;
+    align-items: center;
+
+}
+#hamburger{
+    color: purple;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 30px;
+
+}
+
+#dropdown{
+    
+}
+#dropdown a{
+    padding: 10px;
+    color: purple;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+h2{
+    padding: 20px;
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+}
+
+.message{
+    text-align: center;
+    padding-top: 30px;
+    color: purple;
+}
+
+#taskbutton{
+   position: absolute;
+   bottom: 10px;
+   left: 25px;
+    color: white;
+    background-color:   rgb(105, 8, 105);
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid  rgb(124, 11, 124);;
+    font-weight: bold;
+    font-size: 15px;
+    display: none;
+}
+#removebutton{
+   position: absolute;
+   bottom: 20px;
+   left: 180px;
+    color: purple;
+    background-color:  transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid  rgb(124, 11, 124);;
+    font-weight: bold;
+    font-size: 15px;
+    display: none;
+}
+
+
+#user{
+    height: 300px;
+    width: 300px;
+    background-color: plum;
+    color: black;
+    border: 1px solid plum;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#textarea{
+    height: 150px;
+    width: 300px;
+}
+
+#btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#cancelbtn{
+    font-size: 20px;
+    background-color: transparent;
+    color: purple;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#savebtn{
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#textTitle{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: purple;
+}
+
+#displayarea{
+    position: relative;
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 250px;
+    padding: 10px 10px 100px 20px;
+    border-radius: 10px;
+    height: fit-content;
+    width: 400px;
+    background-color: plum;
+    color: white;
+    display: none;
+}
+
+li{
+    margin-top: 10px;
+   padding: 10px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(227, 187, 227);
+    border: 1px solid plum;
+}
+
+
+span{
+    color: purple;
+    display: flex;
+    justify-content: center;
+    
+}
+
+i{
+    font-size: 20px;
+   
+}
+input{
+    zoom: 1.5;
+}
+
+.delete{
+    background-color: transparent;
+    border: none;
+}
